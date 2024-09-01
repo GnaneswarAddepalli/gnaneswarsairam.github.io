@@ -1042,19 +1042,4 @@ button:hover {
     }
  }
 
-/* Define the slide-in animation */
-@keyframes slideInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(100%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
 
-/* Apply the animation to the hero_container class */
-.hero_container {
-  animation: slideInRight 1s ease-out forwards;
-}
