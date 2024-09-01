@@ -1056,5 +1056,5 @@ button:hover {
 
 /* Apply the animation to the hero_container class */
 .hero_container {
-  animation: slideInRight 1s ease-out;
+  animation: slideInRight 1s ease-out forwards;
 }
